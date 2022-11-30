@@ -1,0 +1,170 @@
+.container{
+    width: 950px;
+    height: 600px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.titulo-h3{
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn{
+    font-size: 35px;
+    cursor: pointer; 
+    border: none;
+}
+
+.btn-primary{
+    color: #fff; 
+    margin-left: 10px;
+}
+
+.btn-edit{
+    color: green;
+}
+
+.btn-delete{
+    color: red;
+    border: none;
+    margin-left: 10px;
+}
+
+
+.table{
+    width: 950px;
+    background-color: #04AA6D;
+    margin-top: 10px;
+}
+
+
+.table-titulos th{
+    font-size: 24px;
+    background-color: #04AA6D;
+    color: #fff;
+}
+
+.filas-style{
+    background-color: #2db2fa;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+}
+
+.filas-style td{
+    height:40px;
+}
+
+
+/* Create Blog */
+
+.form-layout{
+    display: grid;
+    justify-content: center;
+}
+
+.form-label{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.mb input{
+    width: 450px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.mb input:focus,
+.mb textarea:focus{
+    outline: 2px solid #04AA6D;
+}
+
+.mb textarea{
+    width: 450px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.btn-crear-blog{
+    font-size: 22px;
+    margin: 10px 0;
+    transition-duration: 0.5s;
+    width: 150px;
+    border-radius: 15px;
+    display: center;
+    margin: 0 auto;
+    background-color: #04AA6D;
+    color: #fff;
+}
+
+.btn-crear-blog:hover{
+    background-color: #fff;
+    color: rgb(148, 144, 144);
+}
+
+
+/* Media Queries */
+/* ShowBlog */
+@media screen and (max-width: 990px) {
+    .container{
+        width: 750px;
+        margin: auto;
+        margin-top: 150px;
+    }
+    .table{
+        width: 750px;
+        background-color: #04AA6D;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+        margin: auto;
+        margin-top: 150px;
+    }
+    .titulo-h3{
+        font-size: 35px;
+    }
+    .table-titulos th{
+        font-size: 20px;
+    }
+    
+    .filas-style{
+        font-size: 15px;
+    }
+    .table{
+        width: 100%;
+    }
+    .btn-edit{
+        font-size: 25px;
+    }
+    
+    .btn-delete{
+        font-size: 25px;
+    }
+
+}
+
+/* CreateBlog *//* EditBlog */
+@media screen and (max-width: 480px) {
+    .mb input, .mb textarea{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 402px) {
+    .mb input, .mb textarea{
+        width: 300px;
+    }
+}

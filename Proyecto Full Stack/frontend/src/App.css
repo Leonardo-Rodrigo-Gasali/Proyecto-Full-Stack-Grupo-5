@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    font-family: 'Lora', serif;
+    background-color: #2db2fa;
+    background-image: url("https://www.transparenttextures.com/patterns/circles.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    overflow-x: hidden;
+}
+
+
+/* Reset */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}

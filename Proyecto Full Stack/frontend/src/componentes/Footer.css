@@ -1,0 +1,23 @@
+.footer-container{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #1b2430;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.titulo-footer{
+    color: #fff;
+    font-weight: 600;
+}
+
+.copyright{
+    color: #fff;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.autor{
+    color: rgb(255, 10, 10);
+}
